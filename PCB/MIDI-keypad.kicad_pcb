@@ -146,12 +146,6 @@
 		(path "/f3f148c3-3750-4c58-86ab-fb8247b10481")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "MP" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -516,6 +510,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${HACKCLUB_3DMODEL_DIR}/EC11 Rotary Encoder.STEP"
+			(offset
+				(xyz 7.5 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Hackclub Footprints:Kailh Choc Low-Profile Switches"
 		(layer "F.Cu")
@@ -571,12 +576,6 @@
 		(path "/5db5fc12-f71c-4bf7-85d6-f09bf9263276")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -739,6 +738,17 @@
 			(layer "Eco2.User")
 			(uuid "5efa63d7-eedc-4532-b45a-b3f8bcaad497")
 		)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "81878133-1931-4d98-b17c-ab27cf4b81ae")
+		)
 		(fp_line
 			(start -7.5 -7.5)
 			(end 7.5 -7.5)
@@ -841,6 +851,17 @@
 			(uuid "3d6e86b6-8bb3-4d62-8663-dc875d664744")
 		)
 		(embedded_fonts no)
+		(model "${HACKCLUB_3DMODEL_DIR}/Kailh Choc Low Profile Switch.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
 		(layer "F.Cu")
@@ -948,12 +969,6 @@
 		(path "/72734443-7d40-43ea-afba-eb6fe359ec44")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "MP" "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1340,13 +1355,24 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTA1543_Single_Slide.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.5 -6.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${HACKCLUB_3DMODEL_DIR}/Bourns Slide Potentiometers/PTA1543.STEP"
+			(offset
+				(xyz 14.5 -2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1409,12 +1435,6 @@
 		(path "/549d27e7-8635-4dfb-912e-bdad953ee970")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1734,12 +1754,6 @@
 		(path "/0a8363f7-0118-4367-be2a-d67dc26e5648")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1902,6 +1916,17 @@
 			(layer "Eco2.User")
 			(uuid "d7acfad0-ff31-410c-8bae-209bc7bfceb0")
 		)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4c904a3c-fdaa-4e8e-8010-c2f9b889bf35")
+		)
 		(fp_line
 			(start -7.5 -7.5)
 			(end 7.5 -7.5)
@@ -2004,6 +2029,17 @@
 			(uuid "5b86ffe0-e7a3-42cc-9346-7b1bd590e36d")
 		)
 		(embedded_fonts no)
+		(model "${HACKCLUB_3DMODEL_DIR}/Kailh Choc Low Profile Switch.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Hackclub Footprints:Waveshare ESP32-S3-Zero"
 		(layer "F.Cu")
@@ -2226,14 +2262,6 @@
 		(path "/13f8c2c3-7a38-4d87-a954-083025ef9962")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "RX" "TX" "1" "2" "3" "4" "5" "5V" "3V3" "6" "7" "8" "9" "10" "11"
-					"12" "13" "GND"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2753,6 +2781,17 @@
 			(uuid "8f0b4c7f-c9e2-40aa-8fda-e598f66439b3")
 		)
 		(embedded_fonts no)
+		(model "${HACKCLUB_3DMODEL_DIR}/Waveshare ESP32-S3_Zero.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
 	)
 	(footprint "LOGO"
 		(layer "F.Cu")
@@ -3114,12 +3153,6 @@
 		(path "/ec0c3344-0075-4cff-b802-189c86f4d517")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3282,6 +3315,17 @@
 			(layer "Eco2.User")
 			(uuid "59a2c1df-6ace-4160-91f2-9b2ec8888743")
 		)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "943172a8-caa6-4e65-8a8d-9cc291eebe98")
+		)
 		(fp_line
 			(start -7.5 -7.5)
 			(end 7.5 -7.5)
@@ -3384,6 +3428,17 @@
 			(uuid "a56ce582-3e81-4bec-8997-10b7aaed9347")
 		)
 		(embedded_fonts no)
+		(model "${HACKCLUB_3DMODEL_DIR}/Kailh Choc Low Profile Switch.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "LOGO"
 		(layer "F.Cu")
@@ -5089,12 +5144,6 @@
 		(path "/49d25b69-0807-4943-8b6a-b2cb7febc5d6")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "MP" "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5479,7 +5528,8 @@
 			(uuid "252ad6d5-eb13-4cec-8f07-12a12c155648")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTA1543_Single_Slide.step"
+		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296X_Horizontal.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5487,7 +5537,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
+			)
+		)
+		(model "${HACKCLUB_3DMODEL_DIR}/Bourns Slide Potentiometers/PTA1543.STEP"
+			(offset
+				(xyz 14.5 -2 -1)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5556,12 +5617,6 @@
 		(path "/e655d45e-f934-40b4-b2ea-02ab2fb4ff6f")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6155,12 +6210,6 @@
 		(path "/248c3a10-d097-4bf5-ac2b-5632f4f9fc90")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6600,12 +6649,6 @@
 		(path "/1edc5b35-797b-475e-9460-f4f97c3ee9ed")
 		(sheetname "/")
 		(sheetfile "MIDI-keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
