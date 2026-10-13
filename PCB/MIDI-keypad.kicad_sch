@@ -3138,16 +3138,6 @@
 		(uuid "fe0edac2-9fd2-49c6-aa27-72d830bff40a")
 	)
 	(label "SLIDE1"
-		(at 114.3 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "020d5d8d-5abd-438e-81bf-9fddcc02cab1")
-	)
-	(label "SLIDE1"
 		(at 156.21 46.99 180)
 		(effects
 			(font
@@ -3156,6 +3146,16 @@
 			(justify right bottom)
 		)
 		(uuid "03c2e3fa-63ba-4210-b9e7-909d3b5dd4a9")
+	)
+	(label "ENC1_A"
+		(at 114.3 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0443c768-fc07-4459-834b-c3bd8d9c3967")
 	)
 	(label "SWITCH3"
 		(at 172.72 86.36 180)
@@ -3217,16 +3217,6 @@
 		)
 		(uuid "1563263a-0ca6-473e-b79f-fd0040833498")
 	)
-	(label "ENC1_B"
-		(at 114.3 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "340b5423-68b8-4e7c-b4c0-68e08cf6903b")
-	)
 	(label "ENC1_A"
 		(at 96.52 41.91 0)
 		(effects
@@ -3257,15 +3247,15 @@
 		)
 		(uuid "4d692532-c647-4df1-a567-6d3950f796dc")
 	)
-	(label "ENC1_A"
-		(at 114.3 93.98 0)
+	(label "ENC1_B"
+		(at 114.3 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "70b44441-04f9-48be-a16c-85d70161ecf2")
+		(uuid "6c75066c-50ed-4e88-902a-37e0c5ae6384")
 	)
 	(label "TOUCH6"
 		(at 172.72 91.44 180)
@@ -3297,6 +3287,16 @@
 		)
 		(uuid "84fb881d-0021-4212-b917-8547c72cc58a")
 	)
+	(label "SLIDE1"
+		(at 114.3 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "948eb226-1a46-4185-90d6-dcd07bb16918")
+	)
 	(label "SWITCH3"
 		(at 90.17 106.68 180)
 		(effects
@@ -3326,6 +3326,16 @@
 			(justify right bottom)
 		)
 		(uuid "a85b8084-2ce1-411e-af60-2c1cd7495786")
+	)
+	(label "SLIDE2"
+		(at 114.3 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae41e663-f5a6-4a94-a1ca-7842662b5766")
 	)
 	(label "SWITCH2"
 		(at 90.17 93.98 180)
@@ -3386,16 +3396,6 @@
 			(justify left bottom)
 		)
 		(uuid "c37a452f-a299-4eab-ba92-02db5a7513c9")
-	)
-	(label "SLIDE2"
-		(at 114.3 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c917c244-b27b-4931-842d-3444fe9e925c")
 	)
 	(label "TOUCH5"
 		(at 172.72 93.98 180)
