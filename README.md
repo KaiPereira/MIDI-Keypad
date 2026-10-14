@@ -1,4 +1,4 @@
-# Design a custom MIDI keypad
+# Design your own MIDI keypad
 
 ![Photo of Finished PCB](/images/Pasted%20image%2020261013004957.png)
 
