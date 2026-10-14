@@ -102,6 +102,8 @@ It's pretty easy to wire, it's just 2 IO pins for each direction of the pin and 
 
 The Bourns slide potentiometer is a large slider you can add to your PCB. You can just wire pins 1 and 3 to ground and +3V3 respectively, and then wire pin 2 to an analog IO to detect its state and then the mounting pins can just be grounded. 
 
+Adding the slide potentiometer will probably increase the cost of your project a fair amount because you can't source it on Aliexpress, but you might be able to find an alternative or something.
+
 *Your slider needs to be wired up to an analog capable pin on your MCU, so check the pinouts  on your MCU again and make sure the pin is ADC capable*
 
 ![3D model of the sliders](/images/Pasted%20image%2020261013014910.png)
